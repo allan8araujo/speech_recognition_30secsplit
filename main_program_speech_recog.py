@@ -1,7 +1,7 @@
 import speech_recognition as sr
 
 text = ''
-audio_file = sr.AudioFile('AUD-20170120-WA0000.wav')
+audio_file = sr.AudioFile('{FILENAME.WAV}')
 with audio_file as source:
     audio_file_duration = audio_file.DURATION
 
